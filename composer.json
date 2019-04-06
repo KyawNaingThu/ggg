@@ -21,8 +21,10 @@
         "laravel/framework": "5.8.*",
         "laravel/socialite": "^4.1",
         "laravel/tinker": "^1.0",
+        "nwidart/laravel-modules": "^5.0",
         "owen-it/laravel-auditing": "^9.0",
         "predis/predis": "^1.1",
+        "rabbit-converter/rabbit-php": "dev-master",
         "spatie/laravel-html": "^2.4",
         "spatie/laravel-permission": "^2.36",
         "torann/geoip": "^1.0"
@@ -51,7 +53,8 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Modules\\": "Modules/"
         }
     },
     "autoload-dev": {
